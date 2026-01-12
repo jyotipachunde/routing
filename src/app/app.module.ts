@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ApproutingModule } from './services/app.routing.module';
 import { RouterModule } from '@angular/router';
 import { PostsComponent } from './posts/posts.component';
+import { HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PostsComponent } from './posts/posts.component';
     BrowserModule,
     BrowserAnimationsModule,
     ApproutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

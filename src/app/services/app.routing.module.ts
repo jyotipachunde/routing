@@ -3,6 +3,7 @@ import { HomedashComponent } from "../homedash/homedash.component";
 import { ProductsdashComponent } from "../productsdash/productsdash.component";
 import { UsersdashComponent } from "../usersdash/usersdash.component";
 import { RouterModule, Routes } from "@angular/router";
+import { PostsComponent } from "../posts/posts.component";
 
 const routes : Routes=[
     {
@@ -16,6 +17,10 @@ const routes : Routes=[
      {
         path:'users',
         component:UsersdashComponent
+    },
+    {
+        path:'post',
+        component:PostsComponent
     },
 ]
 
